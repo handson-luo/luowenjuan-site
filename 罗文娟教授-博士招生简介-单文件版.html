@@ -101,7 +101,10 @@ ul,ol{list-style:none}
 .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:12.5px;letter-spacing:.22em;color:rgba(255,255,255,.66);text-transform:uppercase}
 .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 4px rgba(176,141,79,.16)}
 
-.hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,5.2vw,4.35rem);line-height:1.14;letter-spacing:-.012em;margin:26px 0 0}
+.hero-name{display:flex;align-items:baseline;gap:12px;margin-top:22px;font-family:var(--serif);font-weight:600;
+  font-size:clamp(1.55rem,2.5vw,2rem);line-height:1.2;letter-spacing:.07em;color:#fff}
+.hero-name em{font-style:normal;font-size:.56em;font-weight:500;letter-spacing:.22em;color:rgba(255,255,255,.58);transform:translateY(-.1em)}
+.hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,5.2vw,4.35rem);line-height:1.14;letter-spacing:-.012em;margin:12px 0 0}
 .hero h1 em{font-style:normal;color:#dcdaff;position:relative;white-space:nowrap}
 .hero h1 em::after{content:"";position:absolute;left:2px;right:2px;bottom:.08em;height:.5em;background:linear-gradient(90deg,rgba(176,141,79,.42),rgba(176,141,79,0));z-index:-1;border-radius:2px}
 .hero .lede{margin-top:26px;max-width:37em;font-size:16.5px;line-height:1.95;color:rgba(255,255,255,.74);text-wrap:pretty}
@@ -257,8 +260,9 @@ ul,ol{list-style:none}
     <div class="wrap">
       <div>
         <p class="eyebrow"><span class="dot"></span>眼科学 · 博士研究生招生</p>
+        <p class="hero-name">罗文娟<em>教授</em></p>
         <h1>招收眼科学<br><em>博士研究生</em></h1>
-        <p class="lede">深圳市第二人民医院（深圳大学第一附属医院）眼科学科带头人罗文娟教授，博士生导师、博士后合作导师。课题组依托深圳大学与香港理工大学研究平台，聚焦脉络膜黑色素瘤、糖尿病视网膜病变、葡萄膜炎等方向，致力于眼病发病机制与治疗相关临床转化研究。</p>
+        <p class="lede">现任深圳市第二人民医院（深圳大学第一附属医院）眼科学科带头人、博士生导师、博士后合作导师。课题组依托深圳大学与香港理工大学研究平台，聚焦脉络膜黑色素瘤、糖尿病视网膜病变、葡萄膜炎等方向，致力于眼病发病机制与治疗相关临床转化研究。</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#research">查看研究方向 <span class="arw">→</span></a>
           <a class="btn btn-ghost" href="mailto:luowenjuan@szseyy.com?subject=%E3%80%90%E5%8D%9A%E5%A3%AB%E7%94%9F%E7%94%B3%E8%AF%B7%E3%80%91%E5%A7%93%E5%90%8D-%E5%AD%A6%E6%A0%A1-%E4%B8%93%E4%B8%9A">邮件联系导师</a>
